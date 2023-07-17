@@ -9,6 +9,10 @@
 <pre><code> cp env.example .env
  
  create a database for testing in mysql and use that creds in .env file
+
+ php artisan migrate
+
+ php artisan db:seed
  
  composer install
  
